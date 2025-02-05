@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- -->
+        <title>Sowmiyan S</title>
+        <!-- To make website to view on mobile phone screen -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Linking the stylesheet CSS through external css -->
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="nav">
+            <h2 title="sowmiyan">SN</h2>
+            <a class="nav-links" title="home" href="#home">home</a>
+            <a class="nav-links" title="about" href="#about">about</a>
+            <a class="nav-links" title="education" href="#education">education</a>
+            <a class="nav-links" title="experience" href="#experience">experience</a>
+            <a class="nav-links" title="projects" href="#projects">projects</a>
+            <a class="nav-links" title="contact" href="#contact">contact</a>
+        </div>
+        <article id="home">
+            <div>
+                <img src="sowmiyan.png" alt="sowmiyan">
+            </div>
+            <article>
+                <h1>Sowmiyan S</h1>
+                <p>A passionate <em>software developer</em> from Namakkal, looking to improve my skills on top technologies like Cloud Computing, Docker, Microservices, AL and ML.</p>
+            </article>
+        </article>
+        <article id="about">
+            <h3>About</h3>
+            <p>Proficient Software Developer with hands on experience on Spring Boot, Linux Commands and Skilled Trainer, successfully trained 200+ students.</p>
+        </article>
+        <article id="education">
+            <h3>Education:</h3>
+            <ul>
+                <li>
+                    <section>
+                        <h4>Muthayammal Engineering College</h4>
+                        <h5>Bachelor's Degree in Information Technology</h5>
+                        <h5>2020 - 2024 | CGPA <b>8.72</b></h5>
+                    </section>
+                </li>
+                <li>
+                    <section>
+                        <h4>Kongunadu Matric Hr. Sec. School</h4>
+                        <h5>Higher Secondary Certificate</h5>
+                        <h5>2018 - 2020 | HSE <b>84.66</b></h5>
+                    </section>
+                </li>
+                <li>
+                    <section>
+                        <h4>Kongunadu Matric Hr. Sec. School</h4>
+                        <h5>Secondary School Leavine Certificate</h5>
+                        <h5>2017 - 2018 | SSLC <b>93.40</b></h5>
+                    </section>
+                </li>
+            </ul>
+        </article>
+        <article id="experience">
+            <h4>Software Trainee</h4>
+            <h5>Techno Kryon | 2024 May</h5>
+            <ul>
+                <li>
+                    <p>Developed an invoice application using <b>Spring Boot</b> implementing <b>Restful APIs</b></p>
+                </li>
+                <li>
+                    <p>Integrated invoice creation service for <em>dynamic PDF generation</em> and automated email delivery using <b>SMTP protocal</b>.</p>
+                </li>
+                <li>
+                    <p>Acquired proficiency in <b>Spring Boot, Spring Security [JWT], Velocity Engine</b> and <b>JavaMailSender.</b></p>
+                </li>
+            </ul>
+        </article>
+        <article id="projects">
+            <h4>Task Management Application with Spring Boot</h4>
+            <ul>
+                <li>
+                    <p>Designed and implemented a task management system with <em>CRUD</em> operations using Spring Boot.</p>
+                </li>
+                <li>
+                    <p>MySql Database for persistent storage of task details including status, due date and timestamps.</p>
+                </li>
+                <li>
+                    <p>Created RESTful APIs for creating, updating, retriving and deleting tasks, ensuring <em>task managemet capabilities</em></p>
+                </li>
+            </ul>
+            <h4>Weather App</h4>
+            <ul>
+                <li>
+                    <p>Created <em>Weather Web Application</em>using HTML, CSS and JS</p>
+                </li>
+                <li>
+                    <p>Implemented API calls to get location of the device</p>
+                </li>
+                <li>
+                    <p>Based on the current location get the weather details to give weather results that are accurate.</p>
+                </li>
+            </ul>
+        </article>
+        <article id="contact">
+            <h3>Contact Me:</h3>
+            <form action="#" onsubmit="return submitForm(event);">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Name">
+                <div id="nameError"></div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <div id="emailError"></div>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" rows="10" cols="50" placeholder="Write your message" required></textarea>
+                <div id="contentError"></div>
+                <input type="submit" value="Send">
+            </form>
+        </article>
+        <div id="footer">
+            <section id="footer-section">
+                <div class="contdiv">
+                    <a href="https://github.com/SowmiyanS">GitHub</a>
+                </div>
+                <div class="contdiv">
+                    <a href="https://linkedin.com/in/sowmiyan-s">LinkedIn</a>
+                </div>
+                <div class="contdiv">Phone: 6380008109</div>
+                <div class="contdiv">Email: sowmiyan9491@gmail.com</div>
+            </section>
+            <p>Copyright &copy; 2025 Sowmiyan S</p>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
