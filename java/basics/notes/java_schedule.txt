@@ -1,0 +1,101 @@
+Day: 1
+
+* Give introduction to myself to the students
+* Interact with them and ask them simple questions.
+* Start giving the intro to programming language.
+
+* Explain what is a programming language.
+* How a programming language works.
+* What is a software and a compiler.
+
+* How a compiler works, and how to make a compiler from scratch.
+* High level overview of a compiler.
+* From high level language to machine code.
+
+* Understand basic procedural programming, Introduce the Java.
+* Explain why we need java, and compare to older programming languages.
+* Emphasis the features of java.
+
+Day: 2
+
+* What is java programming language?
+* What is java platform?
+* How to write simple java program.
+
+* Explain how a simple program runs in java
+* Why and how java is platform independent?
+* Explain about how java technology works?
+
+* Finish java installation if pending.
+* Write a simple program and run.
+
+* Use java compiler to compile.
+* Use jvm to run the simple program.
+
+Day: 3
+
+* What is object oriented programming.
+* What are the componenets of oop.
+
+* What is object in java
+* Give realworld examples
+* What is a class in java.
+
+* What is encapsulation in java
+* Give example for encapsulation.
+* What is inheritance
+
+* Give types of inheritance.
+* Explain types of inheritance.
+* Give examples for each.
+
+Day: 4
+
+* What is the abstraction.
+* How to acheive the abstraction.
+* Give examples to abstraction.
+
+* What is a package in java.
+* Give example to package.
+* Why it give namespaces to programmers.
+
+* What are variables, its components and how to define them.
+* What are datatypes, and uses.
+* Literals
+
+* How to convert one datatype to another.
+* Default values of datatypes.
+* Underscore and d, f literals.
+
+Day: 5
+
+* What is Datastructure?
+* Explain Arrays in java
+* Multidimensional arrays.
+
+* Jagged Array.
+* Operators in java.
+* Types of operators in java.
+
+* Assignment, Arithmetic, Unary operators with examples.
+* Euality, Relational, Conditional operators with examples.
+* Type comparision and bitwire operators with examples.
+
+* Block statement in java.
+* Variable scopes in relation with blocks.
+* Conditional Statements.
+
+Day: 6
+
+* If else, statements with example
+* Nested If Else statement with example
+* Switch Statement with examples.
+* Looping Statement - while 
+* do while statement with examples.
+
+* For loop with examples.
+* CapStone Project description.
+
+* Building the Pixels App.
+
+* Building the JDBC Connectivity App to run queries on a database.
